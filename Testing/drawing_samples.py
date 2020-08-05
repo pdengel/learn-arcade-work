@@ -15,6 +15,7 @@ arcade.set_background_color(arcade.csscolor.SKY_BLUE)
 arcade.start_render()
 
 # drawing code will be inserted here
+arcade.draw_lrtb_rectangle_filled(0, 599, 300, 0, arcade.csscolor.GREEN)
 
 # finish drawing
 arcade.finish_render()
